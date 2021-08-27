@@ -5,8 +5,11 @@
     <banner />
     <personalinfo />
     <poster-one />
-    <cards />
     <poster-two />
+    <cards />
+    <mian-poster />
+    <poster-three />
+    <poster-four />
     <application />
     <main-footer />
   </div>
@@ -17,8 +20,11 @@ import NavBar from "./components/navBar.vue";
 import Banner from "./components/banner.vue";
 import Personalinfo from "./components/personalinfo.vue";
 import PosterOne from "./components/posterOne.vue";
+import PosterTwo from "./components/posterTwo.vue";
 import Cards from "./components/cards.vue";
-import posterTwo from "./components/posterTwo.vue";
+import mianPoster from "./components/mainPoster.vue";
+import posterThree from "./components/posterThree.vue";
+import posterFour from "./components/posterFour.vue";
 import application from "./components/application.vue";
 import MainFooter from "./components/mainFooter.vue";
 export default {
@@ -28,8 +34,11 @@ export default {
     Banner,
     Personalinfo,
     PosterOne,
+    PosterTwo,
     Cards,
-    posterTwo,
+    mianPoster,
+    posterThree,
+    posterFour,
     application,
     MainFooter,
   },

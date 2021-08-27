@@ -1,16 +1,16 @@
 <template>
-  <section class="poster-2 mt-5">
+  <section class="poster-4 mt-5">
     <div class="container">
       <div class="row">
-        <div class="col-lg-8 order-lg-last">
+        <div class="col-lg-8">
           <div class="image">
-            <img src="../assets/poster-2.jpg" class="img-fluid" />
+            <img src="../assets/28.jpg" class="img-fluid" />
           </div>
         </div>
-        <div class="col-lg-4 order-lg-first mt-3">
+        <div class="col-lg-4 mt-3">
           <div class="context">
             <h2 class="d-none d-sm-block h1 mb-2 m2-5">
-              Did You Hear About Lorem ipsum dolor?
+              Don't Miss This Day!!
             </h2>
             <p class="d-none d-sm-block mt-5 mb-1">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem
@@ -21,7 +21,7 @@
               Read Now!
             </button>
             <h3 class="text-center d-block d-sm-none mb-2">
-              Did You Hear About Lorem ipsum dolor?
+              Don't Miss This Day!!
             </h3>
             <p class="text-center d-block d-sm-none mt-2 mb-1">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem
@@ -43,7 +43,7 @@ export default {};
 </script>
 
 <style lang="scss" scoped>
-.poster-2 {
+.poster-4 {
   .image {
     overflow: hidden;
     border-radius: 20px;
@@ -71,7 +71,7 @@ export default {};
 }
 
 @media (max-width: 555px) {
-  .poster-2 {
+  .poster-4 {
     .context {
       p {
         font-size: 0.75rem;

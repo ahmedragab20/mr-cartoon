@@ -96,6 +96,15 @@ export default {};
       font-weight: 900;
     }
 
+    .image {
+      overflow: hidden;
+
+      img {
+        border-radius: 15px;
+        transform: scale(0.7);
+      }
+    }
+
     .card-header {
       background: none;
 
