@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6 order-md-last">
-          <div class="image">
+          <div class="image overflow-hidden">
             <img src="../assets/app.jpg" class="img-fluid" />
           </div>
         </div>
@@ -38,11 +38,9 @@ export default {};
 <style lang="scss" scoped>
 .application {
   .image {
-    overflow: hidden;
     border-radius: 20px;
     height: 100%;
     img {
-      //border-radius: 20px;
       height: 100%;
       width: 100%;
       object-fit: cover;

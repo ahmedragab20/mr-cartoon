@@ -1,7 +1,5 @@
 <template>
-  <div class="poster">
-    <div class="container"></div>
-  </div>
+  <div class="poster"></div>
 </template>
 
 <style lang="scss" scoped>

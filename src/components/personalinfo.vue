@@ -97,8 +97,6 @@ export default {};
     }
 
     .image {
-      overflow: hidden;
-
       img {
         border-radius: 15px;
         transform: scale(0.7);

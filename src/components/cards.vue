@@ -7,8 +7,8 @@
       <h3 class="text-center d-block d-sm-none mb-5">Some Of Our Categories</h3>
       <div class="row">
         <div class="col-lg-3 col-md-6 mb-3">
-          <div class="card">
-            <div class="image h-50">
+          <div class="card overflow-hidden">
+            <div class="image h-50 overflow-hidden">
               <img src="../assets/card-1.jpg" class="card-img-top h-100" />
             </div>
             <div class="card-body">
@@ -22,8 +22,8 @@
           </div>
         </div>
         <div class="col-lg-3 col-md-6 mb-3">
-          <div class="card">
-            <div class="image h-50">
+          <div class="card overflow-hidden">
+            <div class="image h-50 overflow-hidden">
               <img src="../assets/card-2.jpg" class="card-img-top h-100" />
             </div>
             <div class="card-body">
@@ -37,8 +37,8 @@
           </div>
         </div>
         <div class="col-lg-3 col-md-6 mb-3">
-          <div class="card">
-            <div class="image h-50">
+          <div class="card overflow-hidden">
+            <div class="image h-50 overflow-hidden">
               <img src="../assets/card-3.png" class="card-img-top h-100" />
             </div>
             <div class="card-body">
@@ -52,8 +52,8 @@
           </div>
         </div>
         <div class="col-lg-3 col-md-6 mb-3">
-          <div class="card">
-            <div class="image h-50">
+          <div class="card overflow-hidden">
+            <div class="image h-50 overflow-hidden">
               <img src="../assets/card-4.jpg" class="card-img-top h-100" />
             </div>
             <div class="card-body">
@@ -87,11 +87,9 @@ export default {};
     box-shadow: 5px 5px 10px rgba(153, 153, 153, 0.3),
       -5px -5px 10px rgba(153, 153, 153, 0.3);
     border-radius: 20px;
-    overflow: hidden;
     border: none;
     margin: 0 10px;
     .image {
-      overflow: hidden;
       img {
         object-fit: cover;
         transition: 0.3s;

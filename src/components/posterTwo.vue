@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 order-lg-last">
-          <div class="image">
+          <div class="image overflow-hidden">
             <img src="../assets/poster-2.jpg" class="img-fluid" />
           </div>
         </div>
@@ -45,7 +45,6 @@ export default {};
 <style lang="scss" scoped>
 .poster-2 {
   .image {
-    overflow: hidden;
     border-radius: 20px;
     img {
       border-radius: 20px;
